@@ -1,0 +1,32 @@
+{
+  "name": "gate-resolver",
+  "version": "0.0.1",
+  "description": "gate-resolver (ticket)",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentldotland/gate-resolver.git"
+  },
+  "keywords": [
+    "ark",
+    "decentland",
+    "near",
+    "arweave",
+    "social"
+  ],
+  "author": "charmful0x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decentldotland/gate-resolver/issues"
+  },
+  "homepage": "https://github.com/decentldotland/gate-resolver#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "near-api-js": "^1.0.0"
+  }
+}
